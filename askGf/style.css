@@ -1,39 +1,42 @@
 body {
     background-color: rgb(159, 113, 233);
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
-    margin:70px auto;
     background-color: rgb(255, 255, 255);
-    width: 500px;
-    height: 500px;
     border-radius: 20px;
     text-align: center;
-    padding-top: 50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    max-width: 90%;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-#yesbtn {
+.container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#yesbtn, #nobtn {
     height: 40px;
-    width: 60px;
+    width: 100px;
     background-color: rgb(124, 160, 175);
     border: 2px solid white;
     border-radius: 10px;
     color: black;
-    margin-left: -50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
+    margin: 10px;
+    cursor: pointer;
 }
 
 #nobtn {
-    position: absolute;
-    height: 40px;
-    width: 60px;
-    background-color: rgb(124, 160, 175);
-    border: 2px solid white;
-    border-radius: 10px;
-    color: black;
-    margin-left: 10px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 15px;
+    position: relative;
 }
