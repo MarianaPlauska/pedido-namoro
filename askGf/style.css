@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(159, 113, 233);
+}
+
+.container {
+    margin:70px auto;
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#yesbtn {
+    height: 40px;
+    width: 60px;
+    background-color: rgb(124, 160, 175);
+    border: 2px solid white;
+    border-radius: 10px;
+    color: black;
+    margin-left: -50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+#nobtn {
+    position: absolute;
+    height: 40px;
+    width: 60px;
+    background-color: rgb(124, 160, 175);
+    border: 2px solid white;
+    border-radius: 10px;
+    color: black;
+    margin-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
